@@ -1,0 +1,34 @@
+<html>
+	<html>
+		<html>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+			  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+		<title>WEBCAM STREAMING</title>
+	</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8  offset-lg-2">
+				<h3 class="mt-5"style="color:red;"> L I V E</h3> 	<!-- mt-5는 공백을 주기 위한 것 -->
+				<img src="{{ url_for('video_feed') }}" width="100%">
+			</div>
+			<div class="col-lg-8  offset-lg-2">
+				<a href="{{ url_for('push_capture') }}"><input type="button" value="캡쳐" ></a>
+				<a href="{{ url_for('push_record') }}"><input type="button" value="녹화/정지" ></a>
+				<b>	{% if is_record!=0 %} 녹화중 🔴
+					{% elif is_record==0 %} 녹화대기 ⚫
+					{% endif %}
+				</b>	
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>
