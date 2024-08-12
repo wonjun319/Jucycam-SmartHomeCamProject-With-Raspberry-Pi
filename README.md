@@ -1,4 +1,9 @@
-# SmartHomeCamProject-jucycam-With-Raspberry-Pi
+# 1인가구 보안을 위한 스마트 홈캠 "주시캠"
+##사용언어 및 기술
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 ![image](https://github.com/user-attachments/assets/b98f5da8-cdea-476f-8f44-b4b98d543b41)
 
 ![image](https://github.com/user-attachments/assets/9a649778-ce5f-44df-af00-b19a840856cf)
