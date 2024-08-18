@@ -3,7 +3,7 @@
   주요 기능으로는 웹으로 접속하여 쉽게 녹화,캡처가 가능하도록 하고 사람의 얼굴이 인식될시 자동으로 녹화가 시작되도록 하였습니다.
 
 ## 프로젝트 인원
-2인 팀( 본인(SW), 팀원(HW))
+2인 팀: 본인(SW), 팀원(HW)
 ## 사용언어 및 기술
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">  <img src="https://img.shields.io/badge/OPenCV-5C3EE8?style=for-the-badge&logo=OPenCV&logoColor=white">  <img src="https://img.shields.io/badge/Raspberry pi-A22846?style=for-the-badge&logo=Raspberry pi&logoColor=white">
 
